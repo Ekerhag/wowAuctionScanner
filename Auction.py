@@ -13,4 +13,10 @@ class Auction:
 		self.rand = rand
 		self.seed = seed
 
+class Item:
+
+	def __init__(self, idNumber, name, sellPrice):
+		self.idNumber = idNumber
+		self.name = name
+		self.sellPrice = sellPrice
 
