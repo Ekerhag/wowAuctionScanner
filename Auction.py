@@ -4,6 +4,7 @@ class Auction:
 
 	def __init__(self, auc, item, owner, ownerRealm, bid, buyout, quantity, timeLeft, rand, seed):
 		self.auc = auc
+		self.item = item
 		self.owner = owner
 		self.ownerRealm	= ownerRealm
 		self.bid = bid
